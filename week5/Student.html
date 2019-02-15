@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Site</title>
+        <!--removeIf(production)-->
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <!--endRemoveIf(production)-->
+
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">First Lab Website Kelcey Stauffer</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="Persons.html">Persons</a>
+                <a class="nav-link" href="Login.html">Logoff</a>
+                <a class="nav-link" href="Student.html">Student Pages</a>
+            </nav>
+        </div>
+        <link rel="stylesheet" href="pretty.css" />
+    </header>
+    <h1>My Second attemp at a table!</h1>
+    <body class="Columnss">
+        <table>
+            <tr>
+                <th>ID number</th>
+                <th>Student email</th>
+            </tr>
+            <tr>
+                <td>918722871</td>
+                <td>magusnet@oit.edu</td>
+            </tr>
+            <tr>
+                <td>918355640</td>
+                <td>hmbrand@oit.edu</td>
+            </tr>
+            <tr>
+                <td>918366299</td>
+                <td>slaff@oit.edu</td>
+            </tr>
+            <tr>
+                <td>918992407</td>
+                <td>clifford@oit.edu</td>
+            </tr>
+            <tr>
+                <td>918249807</td>
+                <td>hllam@oit.edu</td>
+            </tr>
+        </table>
+
+        <!-- inject:js -->
+        <!-- endinject -->
+
+        <!--removeIf(production)-->
+        <script src="js/students.js"></script>
+        <!--endRemoveIf(production)-->
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                initializestudents();
+            });
+        </script>
+    </body>
+</html>
